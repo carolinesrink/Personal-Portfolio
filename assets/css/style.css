@@ -1,0 +1,65 @@
+.parallax-container .parallax img {
+    z-index: -1;
+    height: 700px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#slogan,
+#slogan2 {
+    position: relative;
+    color: white;
+    font-family: 'Rambla', sans-serif;
+    margin: 416px 0px 0px 800px;
+}
+
+#slogan2 {
+    font-family: 'Rammetto One', cursive;
+    margin: -68px 0px 0px 980px;
+}
+
+.githubIcon,
+.linkedInIcon,
+.instagramIcon,
+.twitterIcon {
+    width: 30px;
+    max-width: 40px;
+    background-image: url("../images/github.png");
+    height: 30px;
+    float: right;
+    margin: 20px 0px 0px 0px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 28px 28px;
+}
+
+.linkedInIcon {
+    background-image: url("../images/linkedin.png");
+}
+
+.instagramIcon {
+    background-image: url("../images/instagram.png");
+}
+
+.twitterIcon {
+    background-image: url("../images/twitter.png");
+}
+
+.header,
+.portfolio,
+.contact {
+    font-family: 'Acme', sans-serif;
+}
+
+.nav-mobile,
+.grey-text {
+    font-family: 'Rambla', sans-serif;
+    text-align: justify;
+    font-size: 30px;
+}
+
+.btn-large {
+    height: 100px;
+}
