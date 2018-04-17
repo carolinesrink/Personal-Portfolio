@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home | Caroline Rink</title>
+    <title>Caroline Rink | Web Design</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Acme|Rambla" rel="stylesheet">
@@ -14,95 +14,109 @@
 </head>
 
 <body>
-    <div class="navbar-fixed">
-        <nav class="transparent z-depth-0">
-            <div class="nav-wrapper">
-                <div class="row">
-                    <div class="col s12">
-                        <ul id="nav-mobile" class="left">
-                            <li>
-                                <a href="header">Home</a>
-                            </li>
-                            <li>
-                                <a href="portfolio">Portfolio</a>
-                            </li>
-                            <li>
-                                <a href="contact">Contact Me</a>
-                            </li>
-                        </ul>
-                        <ul id="nav-mobile" class="right">
-                            <li>
-                                <a href="https://github.com/carolinesrink" target="_blank">
-                                    <div class="githubIcon"></div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/caroline-rink-3614a3120/" target="_blank">
-                                    <div class="linkedInIcon"></div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/carolinesrink/" target="_blank">
-                                    <div class="instagramIcon"></div>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/caroline_scott1" target="_blank">
-                                    <div class="twitterIcon"></div>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </div>
+    <nav id="nav" class="transparent z-depth-0 navbar-fixed">
+        <ul id="nav-mobile" class="left">
+            <li>
+                <a id="navBar" href="#header">Home</a>
+            </li>
+            <li>
+                <a id="navBar" href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+                <a id="navBar" href="#contact">Contact Me</a>
+            </li>
+        </ul>
+        <ul id="nav-mobile" class="right">
+            <li>
+                <a href="https://github.com/carolinesrink" target="_blank">
+                    <div class="githubIcon"></div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/caroline-rink-3614a3120/" target="_blank">
+                    <div class="linkedInIcon"></div>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/carolinesrink/" target="_blank">
+                    <div class="instagramIcon"></div>
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/caroline_scott1" target="_blank">
+                    <div class="twitterIcon"></div>
+                </a>
+            </li>
+        </ul>
+    </nav>
 
-    <div class="parallax-container">
+    <div class="parallax-container one" id="parallaxOne">
         <div class="parallax">
             <img src="assets/images/wave.jpg">
-            <h2 id="slogan">Make a </h2>
-            <h1 id="slogan2">SPLASH </h1>
+            <div class="animate six">
+                <span>M</span><span>a</span><span>k</span><span>e</span> &nbsp;
+                <span>a</span> &nbsp;<span id="splash">S</span><span id="splash">P</span><span id="splash">L</span><span id="splash">A</span><span id="splash">S</span><span id="splash">H</span> &nbsp; <br>
+                <span id="line2">w</span><span id="line2">i</span><span id="line2">t</span><span id="line2">h</span> &nbsp;<span id="line2">y</span><span id="line2">o</span><span id="line2">u</span><span id="line2">r</span> &nbsp;<span id="line2">W</span><span id="line2">e</span><span id="line2">b</span> &nbsp;
+                <span id="line2">D</span><span id="line2">e</span><span id="line2">s</span><span id="line2">i</span><span id="line2">g</span><span id="line2">n</span>
+            </div>
         </div>
     </div>
 
-    <div class="section white">
+    <div class="section green lighten-4">
         <div class="row container">
-            <h2 class="header">About Me</h2>
-            <p class="grey-text text-darken-3 lighten-3">
+            <h2 id="header">About Me</h2>
+            <img id="imageOFfMe" src="assets/images/carol.jpg">
+            <p class="white-text text-darken-3 lighten-3">
                 My name is Caroline Rink and I was born and raised in Atlanta, GA. After my high school graduation in 2013, I attended the
-                University of West Georgia for my undergraduate degree. I graduated in December of 2017 and moved back to
-                Atlanta shortly after. I am currently a student at the Georgia Tech Coding Bootcamp learning web development
-                and computer programming.
+                University of West Georgia for my undergraduate degree. I graduated in December of 2017 and moved back to Atlanta
+                shortly after. I am currently a student at the Georgia Tech Coding Bootcamp learning web development and
+                computer programming.
             </p>
-            <p class="grey-text text-darken-3 lighten-3">
+            <p class="white-text text-darken-3 lighten-3">
                 My favorite hobby is traveling and I have been to seven countries so far. I participated in two study abroad program while
                 I was completing my undergrad. The most memorable place I went to was my study abroad trip to Ireland. I
                 also plan on visiting some Scandinavian countries this summer.
             </p>
-            <p class="grey-text text-darken-3 lighten-3">
+            <p class="white-text text-darken-3 lighten-3">
                 I also have two cats, Stella and Goose, who are always worth a mention.
             </p>
         </div>
     </div>
-    <div class="parallax-container">
+    <div class="parallax-container two">
         <div class="parallax">
-            <img src="assets/images/ATLANTA2.jpg">
+            <img src="assets/images/ireland2.jpg">
         </div>
     </div>
-    <div class="section white">
+    <div class="section green lighten-4">
         <div class="row container">
-            <h2 class="portfolio">Portfolio</h2>
+            <h2 id="portfolio">Portfolio</h2>
+            <div class="carousel">
+                <a class="carousel-item" href="#one!">
+                    <img src="assets/images/gif.png">
+                </a>
+                <a class="carousel-item" href="#two!">
+                    <img src="assets/images/trivia.png">
+                </a>
+                <a class="carousel-item" href="#three!">
+                    <img src="assets/images/moody.png">
+                </a>
+                <a class="carousel-item" href="#four!">
+                    <img src="assets/images/hangman.png">
+                </a>
+                <a class="carousel-item" href="#five!">
+                    <img src="assets/images/responsive.png">
+                </a>
+            </div>
         </div>
     </div>
-    <div class="parallax-container">
+    <div class="parallax-container three">
         <div class="parallax">
-            <img src="assets/images/ireland.jpg">
+            <img src="assets/images/ATLskyline2.jpg">
         </div>
     </div>
-    <div class="section white">
+    <div class="section green lighten-4">
         <div class="row container">
-            <h2 class="contact">Contact Me</h2>
+            <h2 id="contact">Contact Me</h2>
             <div class="row">
                 <form class="col s12">
                     <div class="row">
@@ -127,7 +141,11 @@
                             <label for="textarea1">Textarea</label>
                         </div>
                     </div>
+                    <button class="btn waves-effect waves-light orange lighten-3" type="submit" name="action">Submit
+                        <i class="material-icons right">send</i>
+                    </button>
                 </form>
+
             </div>
         </div>
     </div>
@@ -137,6 +155,14 @@
     <script>
         var elem = document.querySelectorAll('.parallax');
         var instance = M.Parallax.init(elem);
+
+        $(document).ready(function () {
+            $('.carousel').carousel();
+        });
+
+        $('html, body').animate({
+            scrollTop: $("#header").offset().top
+        }, 1000);
     </script>
 </body>
 

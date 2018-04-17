@@ -1,23 +1,20 @@
+#nav {
+    position: fixed;
+}
+
+
 .parallax-container .parallax img {
     z-index: -1;
     height: 700px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    width: auto;
 }
 
-#slogan,
-#slogan2 {
-    position: relative;
-    color: white;
-    font-family: 'Rambla', sans-serif;
-    margin: 416px 0px 0px 800px;
+.one {
+    height: 620px;
 }
 
-#slogan2 {
-    font-family: 'Rammetto One', cursive;
-    margin: -68px 0px 0px 980px;
+.two {
+    height: 525px;
 }
 
 .githubIcon,
@@ -47,19 +44,189 @@
     background-image: url("../images/twitter.png");
 }
 
-.header,
-.portfolio,
-.contact {
-    font-family: 'Acme', sans-serif;
+.six span {
+    position: relative;
+    color: white;
+    font-family: 'Rambla', sans-serif;
+    margin-top: 430px;
+    transform: rotate(-180deg) translate(150px, 0);
+	animation: twister .5s forwards;
 }
 
-.nav-mobile,
-.grey-text {
+.six {
+    margin-left: 300px;
+}
+
+#splash {
+    font-family: 'Rammetto One', cursive;
+}
+
+html {
+    line-height: 1;
+}
+
+#line2 {
+    margin-top: 0px;
+}
+
+@keyframes twister {
+	10% {
+		opacity: 1;
+	}
+	100% {
+		transform: rotate(0deg) translate(0);
+		opacity: 1;
+	}
+}
+
+.animate {
+	font-size: 60px;
+    margin: 42px 0px 0px 780px;
+}
+
+.animate span {
+	display: inline-block;
+}
+.animate span:nth-of-type(2) {
+	animation-delay: .2s;
+}
+.animate span:nth-of-type(3) {
+	animation-delay: .25s;
+}
+.animate span:nth-of-type(4) {
+	animation-delay: .3s;
+}
+.animate span:nth-of-type(5) {
+	animation-delay: .35s;
+}
+.animate span:nth-of-type(6) {
+	animation-delay: .4s;
+}
+.animate span:nth-of-type(7) {
+	animation-delay: .45s;
+}
+.animate span:nth-of-type(8) {
+	animation-delay: .5s;
+}
+.animate span:nth-of-type(9) {
+	animation-delay: .55s;
+}
+.animate span:nth-of-type(10) {
+	animation-delay: .6s;
+}
+.animate span:nth-of-type(11) {
+	animation-delay: .65s;
+}
+.animate span:nth-of-type(12) {
+	animation-delay: .05s;
+}
+.animate span:nth-of-type(13) {
+	animation-delay: .1s;
+}
+.animate span:nth-of-type(14) {
+	animation-delay: .15s;
+}
+.animate span:nth-of-type(15) {
+	animation-delay: .2s;
+}
+.animate span:nth-of-type(16) {
+	animation-delay: .25s;
+}
+.animate span:nth-of-type(17) {
+	animation-delay: .3s;
+}
+.animate span:nth-of-type(18) {
+	animation-delay: .35s;
+}
+.animate span:nth-of-type(19) {
+	animation-delay: .4s;
+}
+.animate span:nth-of-type(20) {
+	animation-delay: .45s;
+}
+.animate span:nth-of-type(21) {
+	animation-delay: .5s;
+}
+.animate span:nth-of-type(22) {
+	animation-delay: .55s;
+}
+.animate span:nth-of-type(23) {
+	animation-delay: .6s;
+}
+.animate span:nth-of-type(24) {
+	animation-delay: .65s;
+}
+.animate span:nth-of-type(25) {
+	animation-delay: .7s;
+}
+.animate span:nth-of-type(26) {
+	animation-delay: .75s;
+}
+.animate span:nth-of-type(27) {
+	animation-delay: .8s;
+}
+.animate span:nth-of-type(28) {
+	animation-delay: .85s;
+}
+
+
+#header,
+#portfolio,
+#contact {
+    font-family: 'Rammetto One', cursive;
+    font-size: 40px;
+    color: white;
+}
+
+#imageOFfMe {
+    float: left;
+    height: 35%;
+    width: 35%;
+    border-radius: 20px;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+
+#navBar {
+    font-family: 'Rambla', sans-serif;
+    font-size: 20px;
+}
+
+.section {
+    background-image: url("../images/CarolineGreen.jpg");
+}
+
+.white-text {
     font-family: 'Rambla', sans-serif;
     text-align: justify;
-    font-size: 30px;
+    font-size: 25px;
 }
 
-.btn-large {
-    height: 100px;
+.carousel-item {
+    height: 200px;
+    width: 100%;
+}
+
+.carousel .carousel-item>img {
+    width: 200%;
+    margin-top: -80px;
+    margin-left: -80px;
+}
+
+input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
+    color:white;
+}
+
+input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 1px solid white;
+    -webkit-box-shadow: 0 1px 0 0 white;
+    box-shadow: 0 1px 0 0 white;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
+    border-bottom: 1px solid white;
+}
+
+.input-field>label {
+    color: white;
 }
