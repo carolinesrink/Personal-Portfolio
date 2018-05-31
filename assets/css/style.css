@@ -1,22 +1,157 @@
-#nav {
-    position: fixed;
+/* Nav Bar */
+.navbar {
+    background-color: rgb(26, 26, 26);
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 60px;
 }
 
-
-.parallax-container .parallax img {
-    z-index: -1;
-    height: 700px; 
-    width: auto;
+.navbar-nav>li>a {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-.one {
-    height: 620px;
+#c,
+#s,
+#r {
+    font-family: 'Lemon', cursive;
+    font-size: 30px;
+    color: white;
 }
 
-.two {
-    height: 525px;
+#c {
+    margin-left: 20px;
 }
 
+#r {
+    font-size: 40px;
+}
+
+/* Written Section Divs */
+.aboutSection,
+.portfolioSection,
+.contactSection {
+    background-color: rgb(112, 170, 173);
+    padding: 50px 200px;
+    font-size: 25px;
+    color: white;
+}
+
+.aboutSection {
+    padding: 40px 350px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+/* Portfolio Hover Effects */
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.imageContainer:hover .portfolioPics {
+    opacity: 0.4;
+  }
+  
+.imageContainer:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: rgb(238, 235, 89);
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 16px 32px;
+    box-shadow: 3px 4px 5px rgb(49, 49, 49);
+}
+
+/* Submit Button */
+.btn-default {
+    color: rgb(184, 184, 184);
+    background-color: rgb(238, 235, 89);
+    border-color: rgb(184, 184, 184);
+    height: 45px;
+    width: 25%;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.btn-default:hover {
+    color: rgb(151, 151, 151);
+    background-color: rgb(228, 224, 0);
+    border-color: rgb(151, 151, 151);
+}
+
+/* Form Labels */
+label {
+    font-weight: normal;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.form-control {
+    height: 45px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Caroline Image */
+.mainImg {
+    width: 100%;
+    margin-top: -20px;
+}
+
+/* Other Images */
+.atlImg,
+.drinkImg {
+    width: 100%;
+}
+
+/* Caroline Label */
+#intro,
+#intro2 {
+    font-family: 'Lemon', cursive;
+    color: rgb(238, 235, 89);
+    font-size: 78px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#intro2 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    color: rgb(238, 235, 89);
+    top: 65%;
+    left: 38%;
+}
+
+/* Portfolio Images */
+.portfolioPics {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 225px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 5px;
+    box-shadow: 3px 4px 5px rgb(49, 49, 49);
+}
+
+/* Social Media Icons */
 .githubIcon,
 .linkedInIcon,
 .instagramIcon,
@@ -26,7 +161,7 @@
     background-image: url("../images/github.png");
     height: 30px;
     float: right;
-    margin: 20px 0px 0px 0px;
+    margin: 0 20px 8px 0;
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 28px 28px;
@@ -34,199 +169,114 @@
 
 .linkedInIcon {
     background-image: url("../images/linkedin.png");
+    margin: 0 20px 8px 0;
 }
 
 .instagramIcon {
     background-image: url("../images/instagram.png");
+    margin: 0 20px 8px 0;
 }
 
 .twitterIcon {
     background-image: url("../images/twitter.png");
+    margin: 0 20px 8px 0;
 }
 
-.six span {
-    position: relative;
-    color: white;
-    font-family: 'Rambla', sans-serif;
-    margin-top: 430px;
-    transform: rotate(-180deg) translate(150px, 0);
-	animation: twister .5s forwards;
-}
-
-.six {
-    margin-left: 300px;
-}
-
-#splash {
-    font-family: 'Rammetto One', cursive;
-}
-
-html {
-    line-height: 1;
-}
-
-#line2 {
-    margin-top: 0px;
-}
-
-@keyframes twister {
-	10% {
-		opacity: 1;
-	}
-	100% {
-		transform: rotate(0deg) translate(0);
-		opacity: 1;
-	}
-}
-
-.animate {
-	font-size: 60px;
-    margin: 42px 0px 0px 780px;
-}
-
-.animate span {
-	display: inline-block;
-}
-.animate span:nth-of-type(2) {
-	animation-delay: .2s;
-}
-.animate span:nth-of-type(3) {
-	animation-delay: .25s;
-}
-.animate span:nth-of-type(4) {
-	animation-delay: .3s;
-}
-.animate span:nth-of-type(5) {
-	animation-delay: .35s;
-}
-.animate span:nth-of-type(6) {
-	animation-delay: .4s;
-}
-.animate span:nth-of-type(7) {
-	animation-delay: .45s;
-}
-.animate span:nth-of-type(8) {
-	animation-delay: .5s;
-}
-.animate span:nth-of-type(9) {
-	animation-delay: .55s;
-}
-.animate span:nth-of-type(10) {
-	animation-delay: .6s;
-}
-.animate span:nth-of-type(11) {
-	animation-delay: .65s;
-}
-.animate span:nth-of-type(12) {
-	animation-delay: .05s;
-}
-.animate span:nth-of-type(13) {
-	animation-delay: .1s;
-}
-.animate span:nth-of-type(14) {
-	animation-delay: .15s;
-}
-.animate span:nth-of-type(15) {
-	animation-delay: .2s;
-}
-.animate span:nth-of-type(16) {
-	animation-delay: .25s;
-}
-.animate span:nth-of-type(17) {
-	animation-delay: .3s;
-}
-.animate span:nth-of-type(18) {
-	animation-delay: .35s;
-}
-.animate span:nth-of-type(19) {
-	animation-delay: .4s;
-}
-.animate span:nth-of-type(20) {
-	animation-delay: .45s;
-}
-.animate span:nth-of-type(21) {
-	animation-delay: .5s;
-}
-.animate span:nth-of-type(22) {
-	animation-delay: .55s;
-}
-.animate span:nth-of-type(23) {
-	animation-delay: .6s;
-}
-.animate span:nth-of-type(24) {
-	animation-delay: .65s;
-}
-.animate span:nth-of-type(25) {
-	animation-delay: .7s;
-}
-.animate span:nth-of-type(26) {
-	animation-delay: .75s;
-}
-.animate span:nth-of-type(27) {
-	animation-delay: .8s;
-}
-.animate span:nth-of-type(28) {
-	animation-delay: .85s;
-}
-
-
-#header,
-#portfolio,
-#contact {
-    font-family: 'Rammetto One', cursive;
+/* Section Headers */
+#title {
+    font-family: 'Lemon', cursive;
     font-size: 40px;
     color: white;
+    text-align: center;
 }
 
-#imageOFfMe {
-    float: left;
-    height: 35%;
-    width: 35%;
-    border-radius: 20px;
-    margin-top: 12px;
-    margin-right: 20px;
-}
-
-#navBar {
-    font-family: 'Rambla', sans-serif;
-    font-size: 20px;
-}
-
-.section {
-    background-image: url("../images/CarolineGreen.jpg");
-}
-
+/* About Me Paragraphs */
 .white-text {
-    font-family: 'Rambla', sans-serif;
-    text-align: justify;
-    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding: 0 25px;
 }
 
-.carousel-item {
-    height: 200px;
-    width: 100%;
+/* Footer */
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
 }
 
-.carousel .carousel-item>img {
-    width: 200%;
-    margin-top: -80px;
-    margin-left: -80px;
-}
-
-input:not([type]):focus:not([readonly])+label, input[type=text]:not(.browser-default):focus:not([readonly])+label, input[type=password]:not(.browser-default):focus:not([readonly])+label, input[type=email]:not(.browser-default):focus:not([readonly])+label, input[type=url]:not(.browser-default):focus:not([readonly])+label, input[type=time]:not(.browser-default):focus:not([readonly])+label, input[type=date]:not(.browser-default):focus:not([readonly])+label, input[type=datetime]:not(.browser-default):focus:not([readonly])+label, input[type=datetime-local]:not(.browser-default):focus:not([readonly])+label, input[type=tel]:not(.browser-default):focus:not([readonly])+label, input[type=number]:not(.browser-default):focus:not([readonly])+label, input[type=search]:not(.browser-default):focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label {
-    color:white;
-}
-
-input:not([type]):focus:not([readonly]), input[type=text]:not(.browser-default):focus:not([readonly]), input[type=password]:not(.browser-default):focus:not([readonly]), input[type=email]:not(.browser-default):focus:not([readonly]), input[type=url]:not(.browser-default):focus:not([readonly]), input[type=time]:not(.browser-default):focus:not([readonly]), input[type=date]:not(.browser-default):focus:not([readonly]), input[type=datetime]:not(.browser-default):focus:not([readonly]), input[type=datetime-local]:not(.browser-default):focus:not([readonly]), input[type=tel]:not(.browser-default):focus:not([readonly]), input[type=number]:not(.browser-default):focus:not([readonly]), input[type=search]:not(.browser-default):focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]) {
-    border-bottom: 1px solid white;
-    -webkit-box-shadow: 0 1px 0 0 white;
-    box-shadow: 0 1px 0 0 white;
-}
-
-input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea {
-    border-bottom: 1px solid white;
-}
-
-.input-field>label {
+.footer {
     color: white;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    background-color: rgb(51, 51, 51);
+    padding: 20px;
+    border-top: 2px solid grey;
+    margin-bottom: 0px;
 }
+
+/* Media Queries */
+@media only screen and (max-width: 1400px) {
+
+}
+  
+@media only screen and (max-width: 1200px) {
+
+}
+  
+@media only screen and (max-width: 980px) {
+
+}
+  
+@media only screen and (max-width: 768px) {
+
+}
+  
+@media only screen and (max-width: 414px) {
+
+}
+
+@media only screen and (max-width: 411px) {
+    .parallax-container {
+        margin-top: -50px;
+        height: 538px;
+    }
+    
+    .mainImg {
+        margin-top: 100px;
+        padding: 113px 27px 113px 27px;
+    }
+
+    #intro {
+        font-size: 20px;
+        margin: 385px 33px 0px 0px;
+    }
+
+    #intro {
+        margin: -87px 27px;
+    }
+
+    .section {
+        margin: -87px 27px;
+    }
+
+    #header {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .white-text {
+        font-size: 13px;
+        padding: 0px 14px;
+    }
+
+    .footer {
+        display: block;
+    }
+}
+  
+@media only screen and (max-width: 375px) {
+
+}
+  
