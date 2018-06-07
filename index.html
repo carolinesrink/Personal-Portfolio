@@ -13,8 +13,7 @@
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lemon|Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Pacifico" rel="stylesheet">
     <!-- Personal Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -24,22 +23,24 @@
 
     <nav class="navbar navbar-default navbar-static-top">
         <div class="container-fluid">
-            <div class="navbar-header">
+            <ul class="nav navbar-nav navbar-left">
+                <li><a href="#home" class="nav-links">Home</a></li>
+                <li><a href="#about" class="nav-links">About</a></li>
+                <li><a href="#portfolio" class="nav-links">Portfolio</a></li>
+                <li><a href="#contact" class="nav-links">Contact</a></li>
+            </ul>
+            <div class="navbar-header navbar-right">
                 <span id="c">C</span><span id="r">R</span><span id="s">S</span>
             </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li class="active"><a href="#header">Home <span class="sr-only">(current)</span></a></li>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#portfolio">My Portfolio</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-            </ul>
+            
         </div>
     </nav>
 
     <div class="container-fluid">
         <div class="row">
-            <img class="mainImg" src="assets/images/field.png">
-            <h3 id="intro" class="animated fadeInLeft">Hi, I'm Caroline.</h3><br>
+            <img class="mainImg animated fadeInRight" src="assets/images/portfolio-background-white.png">
+            <h3 id="hello" class="animated fadeInLeft">hello</h3><br>
+            <h3 id="caroline" class="animated fadeInLeft">I'm Caroline.</h3><br>
         </div>
 
         <div class="row">
@@ -49,11 +50,11 @@
                         <h2 id="title">About Me</h2>
                    </div> 
                 </div>
-                <hr>
+                <br>
                 <div class="row">
                     <div class="col-lg-12">
                         <p class="white-text">
-                            I was born and raised in Atlanta, GA. After my high school graduation in 2013, I attended the University of West Georgia for my undergraduate degree. I graduated in December of 2017 and moved back to Atlanta shortly after. I am a recent graduate of the Georgia Tech Coding Bootcamp where I learned web development and computer programming. My favorite technologies include HTML, CSS, Javascript, and React.
+                            I was born and raised in Atlanta, GA. After my high school graduation in 2013, I attended the University of West Georgia for my undergraduate degree. I graduated in December of 2017 and moved back to Atlanta shortly after. I am a recent graduate of the Georgia Tech Web Development Program where I learned web development and computer programming. My favorite technologies include HTML, CSS, Javascript, and React.
                         </p>
                     </div>
                 </div>
@@ -73,7 +74,6 @@
                 </div>
             </div>
         </div>
-    
         <div class="row">
             <img class="atlImg" src="assets/images/ATLskyline2.jpg">
         </div>
@@ -81,67 +81,83 @@
             <div class="col-lg-12 portfolioSection" id="portfolio">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2 id="title">Portfolio</h2>
+                        <h2 id="portfolioTitle">Portfolio</h2>
                     </div> 
                 </div>
-                <hr>
+                <br>
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 imageContainer">
-                        <a href="https://carolinesrink.github.io/TriviaGame/" target="_blank">
-                            <img class="portfolioPics" src="assets/images/GoT.png" />
-                            <div class="middle">
-                                <div class="text">Game of Thrones Trivia</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col-lg-4 col-md-6 imageContainer">  
+                    <div class="col-lg-5 col-md-5 imageContainer">  
                         <a href="https://data-visualization-sz.herokuapp.com/" target="_blank">
-                            <img class="portfolioPics" src="assets/images/WDV.png" />
+                            <img class="portfolioPics" src="assets/images/world.jpg" />
                             <div class="middle">
                                 <div class="text">World Data Vizualization</div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-6 imageContainer">
-                        <a href="https://frozen-stream-12299.herokuapp.com/" target="_blank">
-                            <img class="portfolioPics" src="assets/images/Burgers.png" />
+                    <div class="col-lg-7 col-md-7 imageContainer">
+                        <a href="https://carolinesrink.github.io/TriviaGame/" target="_blank">
+                            <img class="portfolioPics" src="assets/images/trivia.jpg" />
                             <div class="middle">
-                                <div class="text">Bob's Burger Game</div>
+                                <div class="text">Game of Thrones Trivia</div>
                             </div>
                         </a>
                     </div>
                 </div>
-                <br>
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 imageContainer">
-                        <a href="https://bioinformatics-surgeon.github.io/MoodyApp/" target="_blank">
-                            <img class="portfolioPics" src="assets/images/moody.png" />
+                    <div class="col-lg-8 col-md-8 imageContainer">
+                        <a href="" target="_blank">
+                            <img class="portfolioPics" src="assets/images/friends.jpg" />
+                            <div class="middle">
+                                <div class="text">FriendFinder</div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4 imageContainer">
+                        <a href="https://frozen-stream-12299.herokuapp.com/" target="_blank">
+                            <img class="portfolioPics" src="assets/images/bobsBurgers.jpg" />
+                            <div class="middle">
+                                <div class="text">Bob's Burgers Game</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 imageContainer">
+                        <a href="" target="_blank">
+                            <img class="portfolioPics" src="assets/images/moody.jpg" />
                             <div class="middle">
                                 <div class="text">Moody</div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-6 imageContainer">
-                        <a href="https://pickled-malamute-15436.herokuapp.com/" target="_blank">
-                            <img class="portfolioPics" src="assets/images/ZR.png" />
+                    <div class="col-lg-8 col-md-8 imageContainer">
+                        <a href="https://carolinesrink.github.io/GifTastic/" target="_blank">
+                            <img class="portfolioPics" src="assets/images/tv.png" />
+                            <div class="middle">
+                                <div class="text">Television GifTastic</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-5 col-md-5 imageContainer">
+                        <a href="" target="_blank">
+                            <img class="portfolioPics" src="assets/images/generator-wheel.jpg" />
                             <div class="middle">
                                 <div class="text">Zig-Rig</div>
                             </div>
                         </a>
                     </div>
-                    <div class="col-lg-4 col-md-6 imageContainer">
-                        <a href="https://carolinesrink.github.io/GifTastic/" target="_blank">
-                            <img class="portfolioPics" src="assets/images/gif.png" />
+                    <div class="col-lg-7 col-md-7 imageContainer">
+                        <a href="" target="_blank">
+                            <img class="portfolioPics" src="assets/images/meme.jpg" />
                             <div class="middle">
-                                <div class="text">GifTastic</div>
+                                <div class="text">Meme Clicky Game</div>
                             </div>
                         </a>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <img class="drinkImg" src="assets/images/drinkbw.jpg">
         </div>
         <div class="row">
             <div class="col-lg-12 contactSection" id="contact">
@@ -150,7 +166,7 @@
                         <h2 id="title">Let's Connect</h2>
                     </div> 
                 </div>
-                <hr>
+                <br>
                 <form action="https://formspree.io/carolinesrink@gmail.com" method="POST">
                     <div class="row">
                         <div class="col-lg-6">
@@ -175,24 +191,20 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-12 form-group">
                             <label for="exampleTextarea">Questions/Comments/Concerns</label>
                             <textarea class="form-control" rows="5"></textarea>
                         </div>
                     </div>
                     <br>
-                    <div id="success"></div>
                     <div class="row">
-                        <div class="col-lg-8">
-                            <button id="send" type="submit" value="Send" class="btn btn-default">Submit</button>
-                        </div>
                         <div class="col-lg-1">
                             <a href="https://github.com/carolinesrink" target="_blank">
                                 <div class="githubIcon"></div>
                             </a>
                         </div>
                         <div class="col-lg-1">
-                            <a href="https://www.linkedin.com/in/caroline-rink-3614a3120/" target="_blank">
+                            <a href="www.linkedin.com/in/carolinesrink" target="_blank">
                                 <div class="linkedInIcon"></div>
                             </a>
                         </div>
@@ -201,20 +213,18 @@
                                 <div class="instagramIcon"></div>
                             </a>
                         </div>
-                        <div class="col-lg-1">
-                            <a href="https://twitter.com/caroline_scott1" target="_blank">
+                        <div class="col-lg-7">
+                            <a href="https://twitter.com/carolinesrink" target="_blank">
                                 <div class="twitterIcon"></div>
                             </a>
+                        </div>
+                        <div id="success"></div>
+                        <div class="col-lg-2">
+                            <button id="send" type="submit" value="Send" class="btn btn-default">Submit</button>
                         </div>
                     </div>
                 </form>
             </div>
-        </div>
-
-        <div class="row footer">
-            <footer class="clearfix">
-                © | Caroline Rink | 2018
-            </footer>
         </div>
     </div>
 
