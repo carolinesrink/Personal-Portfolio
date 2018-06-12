@@ -180,8 +180,9 @@ html,body
 .twitterIcon {
     width: 30px;
     max-width: 40px;
-    background-image: url("/images/github.png");
+    background-image: url("../images/github.png");
     height: 30px;
+    margin-top: 10px;
     background-repeat: no-repeat;
     background-size: 28px 28px;
     z-index: 1000;
@@ -192,13 +193,122 @@ html,body
 }
 
 .linkedInIcon {
-    background-image: url("/images/linkedin.png");
+    background-image: url("../images/linkedin.png");
 }
 
 .instagramIcon {
-    background-image: url("/images/instagram.png");
+    background-image: url("../images/instagram.png");
 }
 
 .twitterIcon {
-    background-image: url("/images/twitter.png");
+    background-image: url("../images/twitter.png");
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1200px) {
+    #hello {
+        margin: -520px 0px 4px 113px;
+        font-size: 118px;
+    }
+    #caroline {
+        margin: -10px 0px 400px 60px;
+        font-size: 68px;
+    }
+    .portfolioPics {
+        height: 320px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #hello {
+        margin: -450px 0px 4px 96px;
+        font-size: 105px;
+    }
+    #caroline {
+        margin: -10px 0px 400px 50px;
+        font-size: 60px;
+    }
+    .aboutSection {
+        margin-top: -60px;
+        padding: 45px 188px;
+
+    }
+    .portfolioPics {
+        height: 290px;
+    }
+    .text {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .nav-links {
+        font-size: 17px;
+    }
+    #hello {
+        margin: -417px 0px 4px 86px;
+        font-size: 90px;
+    }
+    #caroline {
+        margin: -10px 0px 400px 48px;
+        font-size: 55px;
+    }
+    .aboutSection {
+        margin-top: -75px;
+        padding: 45px 160px;
+    }
+    .portfolioPics {
+        height: 280px;
+    }   
+}
+
+@media only screen and (max-width: 768px) {
+    #hello {
+        margin: -334px 0px 4px 65px;
+        font-size: 75px;
+    }
+    #caroline {
+        margin: -10px 0px 400px 30px;
+        font-size: 43px;
+    }
+    .aboutSection {
+        margin-top: -150px;
+        padding: 35px 100px;
+    }
+    #title {
+        font-size: 45px;
+    }
+    #portfolioTitle {
+        font-size: 45px;
+    }
+    .white-text {
+        font-size: 18px;
+    }
+    .portfolioPics {
+        height: 230px;
+    }
+    .text {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .githubIcon,
+    .linkedInIcon,
+    .instagramIcon,
+    .twitterIcon {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+}
+
+@media only screen and (max-width: 375px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
 }
