@@ -574,6 +574,10 @@ footer {
         border: 3px solid rgb(69, 216, 179);
         background-color: rgb(72, 228, 189);
     }
+    .burger:hover {
+        border: 3px solid rgb(54, 178, 209);
+        background-color: rgb(68, 193, 224);
+    }
     .friends:hover {
         border: 3px solid rgb(72, 202, 226);
         background-color: rgb(84, 215, 239);
