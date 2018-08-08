@@ -421,6 +421,14 @@ footer {
         margin-top: -18%;
         margin-left: 31%;
     }
+    .burger:hover {
+        border: 3px solid rgb(72, 202, 226);
+        background-color: rgb(84, 215, 239);
+    }
+    .friends:hover {
+        border: 3px solid rgb(72, 202, 226);
+        background-color: rgb(84, 215, 239);
+    }
     #social {
         display: none;
     }
