@@ -26,9 +26,15 @@ html,body
 }
 
 .navbar-default .navbar-toggle {
-    font-size: 20px;
+    font-size: 22px;
     padding: 8px;
+    padding-bottom: 5px;
+    width: 55px;
     color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
 }
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
@@ -164,7 +170,7 @@ p {
     height: 150px;
     padding: 25px 25px;
     margin-top: -30%;
-    margin-left: 18%;
+    margin-left: 12%;
     border-radius: 50%;
     background-color: #57F2CC;
     background-repeat: no-repeat;
@@ -183,7 +189,7 @@ p {
     background-color: rgb(83, 158, 250);
 }
 
-.imageContainer3 {
+.projectContainer7 {
     margin-left: 16.5%;
 }
 
@@ -393,40 +399,302 @@ footer {
     .portfolioSection {
         margin-left: 0;
     }
-    .mouse,
-    .power,
-    .tv,
-    .happy,
-    .burger,
-    .friends,
-    .trivia,
+    .mouse, 
+    .power, 
+    .tv, 
+    .happy, 
+    .burger, 
+    .friends, 
+    .trivia, 
     .globe {
         width: 130px;
         height: 130px;
-        margin-top: -28%;
-        margin-left: 20%;
+        margin-top: -18%;
+        margin-left: 31%;
     }
     #social {
         display: none;
     }
+    .projectContainer3,
+    .projectContainer4,
+    .burger,
+    .friends {
+        background-color: rgb(106, 228, 250);
+    }
+    .projectContainer4 {
+        margin-top: -283px;
+    }
+    .projectContainer6 {
+        background-color: rgb(87, 211, 241);
+        margin-top: -317px;
+    }
+    .projectContainer7 {
+        margin-left: 0;
+    }    
+    .portfolioSection {
+        position: relative;
+        bottom: 440px;
+    }
+    .contactSection {
+        position: relative;
+        top: 1340px;
+    }
 }
 
 @media only screen and (max-width: 768px) {
-
+    .nav-link {
+        font-size: 20px;
+    }
+    .slogan {
+        margin-left: 5%;
+        margin-top: -60px;
+        width: 90%;
+    }
+    .mainImg {
+        width: 100%;
+        height: 390px;
+        right: 0%;
+        margin-top: -8px;
+    }
+    .aboutSection,
+    .portfolioSection {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .contactSection {
+        top: 1340px;
+    }
+    .projectContainer4 {
+        margin-top: -292px;
+    }
+    .projectContainer5,
+    .projectContainer6 {
+        background-color: rgb(87, 211, 241);
+        margin-top: -2px;
+    }
 }
 
 @media only screen and (max-width: 640px) {
-
+    .slogan {
+        display: none;
+    }
+    .mainImg {
+        background-image: url("../images/mobileImage.jpg");
+        width: 85%;
+        height: 900px;
+        margin-left: 5%;
+        margin-top: -40px;
+        z-index: 1000;
+    }
+    .projectContainer1,
+    .projectContainer2,
+    .projectContainer3,
+    .projectContainer4,
+    .projectContainer5,
+    .projectContainer6,
+    .projectContainer7,
+    .projectContainer8 {
+        height: 250px;
+    }
+    .projectContainer1,
+    .globe {
+        background-color: rgb(114, 248, 215);
+    }
+    .projectContainer2 {
+        background-color: #57F2CC;
+    }
+    .projectContainer3,
+    .friends {
+        background-color: rgb(106, 228, 250);
+    }
+    .projectContainer4,
+    .burger {
+        background-color: rgb(87, 211, 241);
+        margin-top: 0;
+    }
+    .projectContainer5,
+    .happy {
+        background-color: rgb(71, 200, 233);
+    }
+    .projectContainer6,
+    .tv {
+        background-color: rgb(97, 176, 240);
+        margin-top: 0;
+    }
+    .projectContainer7 {
+        background-color: rgb(83, 158, 250);
+    }
+    .projectContainer8,
+    .mouse {
+        background-color: rgb(54, 139, 243);
+    }
+    .projectContainer8 {
+        border-radius: 0px 0px 12px 12px;
+    }
+    .mouse, 
+    .power, 
+    .tv, 
+    .happy, 
+    .burger, 
+    .friends, 
+    .trivia, 
+    .globe {
+        width: 130px;
+        height: 130px;
+        margin-top: -12%;
+        margin-left: 36%;
+    }
+    .aboutSection,
+    .portfolioSection {
+        width: 80%;
+        margin-left: 8%;
+    }
+    .contactSection {
+        top: 2133px;
+        width: 87%;
+        margin-left: 5%;
+    }
+    .footerImage {
+        width: 20%;
+        margin-left: 80%;
+    }
 }
 
 @media only screen and (max-width: 425px) {
-
+    .mainImg {
+        height: 600px;
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 0px;
+    }
+    #title {
+        font-size: 35px;
+        margin-bottom: -1px;
+    }
+    .white-text {
+        font-size: 13px;
+    }
+    #portfolioTitle {
+        font-size: 35px;
+        margin-bottom: 24%;
+    }
+    .contactSection {
+        top: 2130px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .projectContainer1,
+    .globe {
+        background-color: rgb(114, 248, 215);
+    }
+    .projectContainer2 {
+        background-color: #57F2CC;
+    }
+    .projectContainer3,
+    .friends {
+        background-color: rgb(106, 228, 250);
+        margin-left: 0;
+    }
+    .projectContainer4 {
+        background-color: rgb(87, 211, 241);
+    }
+    .projectContainer5,
+    .happy {
+        background-color: rgb(71, 200, 233);
+    }
+    .projectContainer6,
+    .tv {
+        background-color: rgb(97, 176, 240);
+        margin-left: 0;
+    }
+    .projectContainer7 {
+        background-color: rgb(83, 158, 250);
+        margin-left: 0;
+    }
+    .projectContainer8,
+    .mouse {
+        background-color: rgb(54, 139, 243);
+    }
+    .projectContainer8 {
+        border-radius: 0px 0px 12px 12px;
+    }
+    .mouse, 
+    .power, 
+    .tv, 
+    .happy, 
+    .burger, 
+    .friends, 
+    .trivia, 
+    .globe {
+        width: 120px;
+        height: 120px;
+        padding: 20px 20px;
+        margin-left: 31%;
+        margin-top: -19%;      
+    }
+    .form-control {
+        height: 42px;
+    }
+    .aboutSection, 
+    .portfolioSection {
+        margin-left: 10%;
+    }
+    .footerImage {
+        width: 28%;
+        margin-left: 71%;
+    }
 }
 
 @media only screen and (max-width: 375px) {
-
+    .mainImg {
+        height: 500px;
+    }
+    .mouse, 
+    .power, 
+    .tv, 
+    .happy, 
+    .burger, 
+    .friends, 
+    .trivia, 
+    .globe {
+        width: 110px;
+        height: 110px;
+        margin-left: 30%;
+        margin-top: -20%;      
+    }
+    .contactSection {
+        top: 1960px;
+    }
+    .form-control {
+        height: 42px;
+    }
+    .footerImage {
+        width: 32%;
+        margin-left: 67%;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .descriptions {
+        font-size: 10px;
+    }
+    .projectContainer1, .projectContainer2, .projectContainer3, .projectContainer4, .projectContainer5, .projectContainer6, .projectContainer7, .projectContainer8 {
+        height: 230px;
+    }
 }
 
 @media only screen and (max-width: 320px) {
-
+    .mainImg {
+        height: 475px;
+    }
+    .mouse, 
+    .power, 
+    .tv, 
+    .happy, 
+    .burger, 
+    .friends, 
+    .trivia, 
+    .globe {
+        margin-left: 26%;     
+    }
 }
