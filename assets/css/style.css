@@ -558,6 +558,34 @@ footer {
         margin-top: -12%;
         margin-left: 36%;
     }
+    .globe:hover,{
+        border: 3px solid rgb(69, 216, 179);
+        background-color: rgb(80, 232, 194);
+    }
+    .trivia:hover, {
+        border: 3px solid rgb(69, 216, 179);
+        background-color: rgb(72, 228, 189);
+    }
+    .friends:hover {
+        border: 3px solid rgb(72, 202, 226);
+        background-color: rgb(84, 215, 239);
+    }
+    .happy:hover {
+        border: 3px solid rgb(41, 160, 189);
+        background-color: rgb(50, 181, 212);
+    }
+    .tv:hover {
+        border: 3px solid rgb(67, 148, 214);
+        background-color: rgb(76, 160, 228);
+    }
+    .power:hover {
+        border: 3px solid rgb(54, 134, 232);
+        background-color: rgb(69, 145, 239);
+    }
+    .mouse:hover {
+        border: 3px solid rgb(36, 117, 216);
+        background-color: rgb(39, 128, 234);
+    }
     .aboutSection,
     .portfolioSection {
         width: 80%;
