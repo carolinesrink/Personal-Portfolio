@@ -82,17 +82,21 @@ hr {
 }
 
 /* About Section */
-.aboutText {
+.aboutText,
+.aboutText2,
+.aboutText3 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    margin-top: -450px;
-    margin-left: 35px;
+    font-size: 15px;
+    margin-left: 45px;
+}
+.aboutText {
+    margin-top: -440px;
 }
 .aboutText2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    margin-top: -285px;
-    margin-left: 35px;
+    margin-top: -295px;
+}
+.aboutText3 {
+    margin-top: -190px;
 }
 
 /* Portfolio Section */
@@ -183,6 +187,11 @@ hr {
     font-size: 37px;
     margin-left: 35px;
     text-align: center;
+}
+#UIsoon {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 18px;
 }
 
 /* Contact Section */
